@@ -133,9 +133,9 @@ ul.mistakes li:before{content:"\2715";position:absolute;left:3px;top:13px;color:
 .calcbox .qopts button.on{border-color:var(--accent);color:var(--accent);background:var(--accent-tint)}
 .calc-btn{background:var(--accent);color:#fff;border-color:var(--accent)}
 .calc-btn:hover{background:var(--accent-dark)}
-.calcbox .result{border-top:1px solid var(--line);padding-top:22px;display:flex;align-items:flex-end;justify-content:space-between;gap:16px}
+.calcbox .result{border-top:1px solid var(--line);padding-top:22px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px 16px;flex-wrap:wrap}
 .calcbox .result .lbl{color:var(--accent);margin-bottom:4px}
-.calcbox .big{font-family:var(--serif);font-size:46px;line-height:1;color:var(--ink);font-weight:600}
+.calcbox .big{font-family:var(--serif);font-size:clamp(25px,3.4vw,38px);line-height:1.15;color:var(--ink);font-weight:600;overflow-wrap:anywhere;max-width:100%}
 .calcbox .detail,.calcbox .hint{font-size:13px;color:var(--muted);line-height:1.5}
 .calcbox .detail{text-align:right}
 
